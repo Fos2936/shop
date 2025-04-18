@@ -1,0 +1,292 @@
+0000.026 (R) [notice] Поиск архива db: Имя файла: backup_2025-04-17-1546_testrus_5e0f987dbf2e-db.gz
+0000.027 (R) [notice] Архив должен быть следующего размера: 624.9 KB: OK
+0000.030 (R) [notice] Поиск архива plugins: Имя файла: backup_2025-04-17-1546_testrus_5e0f987dbf2e-plugins.zip
+0000.031 (R) [notice] Архив должен быть следующего размера: 86069.1 KB: OK
+0000.033 (R) [notice] Поиск архива themes: Имя файла: backup_2025-04-17-1546_testrus_5e0f987dbf2e-themes.zip
+0000.034 (R) [notice] Архив должен быть следующего размера: 21115.9 KB: OK
+0000.037 (R) [notice] Поиск архива uploads: Имя файла: backup_2025-04-17-1546_testrus_5e0f987dbf2e-uploads.zip
+0000.037 (R) [notice] Архив должен быть следующего размера: 13604.2 KB: OK
+0000.039 (R) [notice] Поиск архива others: Имя файла: backup_2025-04-17-1546_testrus_5e0f987dbf2e-others.zip
+0000.040 (R) [notice] Архив должен быть следующего размера: 4430.8 KB: OK
+0000.041 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.049 (R) [notice] Распаковка резервной копии (backup_2025-04-17-1546_testrus_5e0f987dbf2e-db.gz, 0.6 Mb)
+0000.052 (R) [notice] Восстановление базы данных (на больших сайтах это может занять много времени и привести к таймауту (если Ваш сервер сконфигурирован с ограничением ресурсов) - в этом случае придется воспользоватся альтернативным методом, например, прямым импортом файла резервной копии в phpMyAdmin)...
+0000.107 (R) [notice] Включение режима обслуживания&#8230;
+0000.128 (R) [notice] Резервное копирование: http://test.rus
+0000.129 (R) [notice] URL данных: http://test.rus/wp-content
+0000.129 (R) [notice] Загрузка URL: http://test.rus/wp-content/uploads
+0000.129 (R) [notice] Старый префикс таблиц: wp_
+0000.129 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.129 (R) [notice] Описание сайта: multisite = 0
+0000.129 (R) [notice] Описание сайта: sql_mode = ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.129 (R) [notice] Описание сайта: WooCommerce = 9.8.1,HPOS=enabled
+0000.131 (R) [notice] New table prefix: 4n_
+0000.143 (R) [notice] Таблица обрабатывается (InnoDB):  wp_options - будет восстановлено как: 4n_options
+0000.263 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.272 (R) [notice] Atomic restore: renaming new table (4n_options) to final table name (wp_options)
+0000.289 (R) [notice] Таблица обрабатывается (InnoDB):  wp_users - будет восстановлено как: 4n_users
+0000.316 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.326 (R) [notice] Atomic restore: renaming new table (4n_users) to final table name (wp_users)
+0000.332 (R) [notice] Таблица обрабатывается (InnoDB):  wp_usermeta - будет восстановлено как: 4n_usermeta
+0000.352 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.363 (R) [notice] Atomic restore: renaming new table (4n_usermeta) to final table name (wp_usermeta)
+0000.369 (R) [notice] Таблица обрабатывается (InnoDB):  wp_actionscheduler_actions - будет восстановлено как: 4n_actionscheduler_actions
+0000.409 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.418 (R) [notice] Atomic restore: renaming new table (4n_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.425 (R) [notice] Таблица обрабатывается (InnoDB):  wp_actionscheduler_claims - будет восстановлено как: 4n_actionscheduler_claims
+0000.443 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0000.452 (R) [notice] Atomic restore: renaming new table (4n_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0000.458 (R) [notice] Таблица обрабатывается (InnoDB):  wp_actionscheduler_groups - будет восстановлено как: 4n_actionscheduler_groups
+0000.478 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0000.486 (R) [notice] Atomic restore: renaming new table (4n_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0000.491 (R) [notice] Таблица обрабатывается (InnoDB):  wp_actionscheduler_logs - будет восстановлено как: 4n_actionscheduler_logs
+0000.528 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0000.536 (R) [notice] Atomic restore: renaming new table (4n_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0000.542 (R) [notice] Таблица обрабатывается (InnoDB):  wp_commentmeta - будет восстановлено как: 4n_commentmeta
+0000.566 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.578 (R) [notice] Atomic restore: renaming new table (4n_commentmeta) to final table name (wp_commentmeta)
+0000.587 (R) [notice] Таблица обрабатывается (InnoDB):  wp_comments - будет восстановлено как: 4n_comments
+0000.620 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.632 (R) [notice] Atomic restore: renaming new table (4n_comments) to final table name (wp_comments)
+0000.640 (R) [notice] Таблица обрабатывается (InnoDB):  wp_links - будет восстановлено как: 4n_links
+0000.663 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.674 (R) [notice] Atomic restore: renaming new table (4n_links) to final table name (wp_links)
+0000.681 (R) [notice] Таблица обрабатывается (InnoDB):  wp_postmeta - будет восстановлено как: 4n_postmeta
+0000.863 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0000.871 (R) [notice] Atomic restore: renaming new table (4n_postmeta) to final table name (wp_postmeta)
+0000.877 (R) [notice] Таблица обрабатывается (InnoDB):  wp_posts - будет восстановлено как: 4n_posts
+0000.998 (R) [notice] Database queries processed: 50 in 0.94 seconds
+0000.998 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0001.166 (R) [notice] Atomic restore: renaming new table (4n_posts) to final table name (wp_posts)
+0001.172 (R) [notice] Таблица обрабатывается (InnoDB):  wp_term_relationships - будет восстановлено как: 4n_term_relationships
+0001.194 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0001.202 (R) [notice] Atomic restore: renaming new table (4n_term_relationships) to final table name (wp_term_relationships)
+0001.209 (R) [notice] Таблица обрабатывается (InnoDB):  wp_term_taxonomy - будет восстановлено как: 4n_term_taxonomy
+0001.233 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0001.242 (R) [notice] Atomic restore: renaming new table (4n_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.249 (R) [notice] Таблица обрабатывается (InnoDB):  wp_termmeta - будет восстановлено как: 4n_termmeta
+0001.270 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0001.279 (R) [notice] Atomic restore: renaming new table (4n_termmeta) to final table name (wp_termmeta)
+0001.285 (R) [notice] Таблица обрабатывается (InnoDB):  wp_terms - будет восстановлено как: 4n_terms
+0001.307 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0001.316 (R) [notice] Atomic restore: renaming new table (4n_terms) to final table name (wp_terms)
+0001.322 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_category_lookup - будет восстановлено как: 4n_wc_category_lookup
+0001.341 (R) [notice] Atomic restore: dropping original table (wp_wc_category_lookup)
+0001.351 (R) [notice] Atomic restore: renaming new table (4n_wc_category_lookup) to final table name (wp_wc_category_lookup)
+0001.360 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_product_meta_lookup - будет восстановлено как: 4n_wc_product_meta_lookup
+0001.386 (R) [notice] Atomic restore: dropping original table (wp_wc_product_meta_lookup)
+0001.395 (R) [notice] Atomic restore: renaming new table (4n_wc_product_meta_lookup) to final table name (wp_wc_product_meta_lookup)
+0001.402 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_reserved_stock - будет восстановлено как: 4n_wc_reserved_stock
+0001.420 (R) [notice] Atomic restore: dropping original table (wp_wc_reserved_stock)
+0001.430 (R) [notice] Atomic restore: renaming new table (4n_wc_reserved_stock) to final table name (wp_wc_reserved_stock)
+0001.436 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_tax_rate_classes - будет восстановлено как: 4n_wc_tax_rate_classes
+0001.457 (R) [notice] Atomic restore: dropping original table (wp_wc_tax_rate_classes)
+0001.464 (R) [notice] Atomic restore: renaming new table (4n_wc_tax_rate_classes) to final table name (wp_wc_tax_rate_classes)
+0001.470 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_order_itemmeta - будет восстановлено как: 4n_woocommerce_order_itemmeta
+0001.491 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_order_itemmeta)
+0001.501 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_order_itemmeta) to final table name (wp_woocommerce_order_itemmeta)
+0001.510 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_payment_tokenmeta - будет восстановлено как: 4n_woocommerce_payment_tokenmeta
+0001.534 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta)
+0001.545 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_payment_tokenmeta) to final table name (wp_woocommerce_payment_tokenmeta)
+0001.553 (R) [notice] Таблица обрабатывается (InnoDB):  wp_betterdocs_analytics - будет восстановлено как: 4n_betterdocs_analytics
+0001.584 (R) [notice] Atomic restore: dropping original table (wp_betterdocs_analytics)
+0001.596 (R) [notice] Atomic restore: renaming new table (4n_betterdocs_analytics) to final table name (wp_betterdocs_analytics)
+0001.606 (R) [notice] Таблица обрабатывается (InnoDB):  wp_betterdocs_search_keyword - будет восстановлено как: 4n_betterdocs_search_keyword
+0001.629 (R) [notice] Atomic restore: dropping original table (wp_betterdocs_search_keyword)
+0001.640 (R) [notice] Atomic restore: renaming new table (4n_betterdocs_search_keyword) to final table name (wp_betterdocs_search_keyword)
+0001.647 (R) [notice] Таблица обрабатывается (InnoDB):  wp_betterdocs_search_log - будет восстановлено как: 4n_betterdocs_search_log
+0001.671 (R) [notice] Atomic restore: dropping original table (wp_betterdocs_search_log)
+0001.680 (R) [notice] Atomic restore: renaming new table (4n_betterdocs_search_log) to final table name (wp_betterdocs_search_log)
+0001.688 (R) [notice] Таблица обрабатывается (InnoDB):  wp_e_events - будет восстановлено как: 4n_e_events
+0001.712 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0001.724 (R) [notice] Atomic restore: renaming new table (4n_e_events) to final table name (wp_e_events)
+0001.733 (R) [notice] Таблица обрабатывается (InnoDB):  wp_nextend2_image_storage - будет восстановлено как: 4n_nextend2_image_storage
+0001.756 (R) [notice] Atomic restore: dropping original table (wp_nextend2_image_storage)
+0001.768 (R) [notice] Atomic restore: renaming new table (4n_nextend2_image_storage) to final table name (wp_nextend2_image_storage)
+0001.775 (R) [notice] Таблица обрабатывается (InnoDB):  wp_nextend2_section_storage - будет восстановлено как: 4n_nextend2_section_storage
+0001.803 (R) [notice] Atomic restore: dropping original table (wp_nextend2_section_storage)
+0001.813 (R) [notice] Atomic restore: renaming new table (4n_nextend2_section_storage) to final table name (wp_nextend2_section_storage)
+0001.820 (R) [notice] Таблица обрабатывается (InnoDB):  wp_nextend2_smartslider3_generators - будет восстановлено как: 4n_nextend2_smartslider3_generators
+0001.843 (R) [notice] Atomic restore: dropping original table (wp_nextend2_smartslider3_generators)
+0001.855 (R) [notice] Atomic restore: renaming new table (4n_nextend2_smartslider3_generators) to final table name (wp_nextend2_smartslider3_generators)
+0001.863 (R) [notice] Таблица обрабатывается (InnoDB):  wp_nextend2_smartslider3_sliders - будет восстановлено как: 4n_nextend2_smartslider3_sliders
+0001.887 (R) [notice] Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders)
+0001.899 (R) [notice] Atomic restore: renaming new table (4n_nextend2_smartslider3_sliders) to final table name (wp_nextend2_smartslider3_sliders)
+0001.906 (R) [notice] Таблица обрабатывается (InnoDB):  wp_nextend2_smartslider3_sliders_xref - будет восстановлено как: 4n_nextend2_smartslider3_sliders_xref
+0001.927 (R) [notice] Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders_xref)
+0001.937 (R) [notice] Atomic restore: renaming new table (4n_nextend2_smartslider3_sliders_xref) to final table name (wp_nextend2_smartslider3_sliders_xref)
+0001.944 (R) [notice] Таблица обрабатывается (InnoDB):  wp_nextend2_smartslider3_slides - будет восстановлено как: 4n_nextend2_smartslider3_slides
+0001.978 (R) [notice] Database queries processed: 100 in 1.92 seconds
+0001.979 (R) [notice] Atomic restore: dropping original table (wp_nextend2_smartslider3_slides)
+0001.989 (R) [notice] Atomic restore: renaming new table (4n_nextend2_smartslider3_slides) to final table name (wp_nextend2_smartslider3_slides)
+0001.995 (R) [notice] Таблица обрабатывается (InnoDB):  wp_site_mail_logs - будет восстановлено как: 4n_site_mail_logs
+0002.016 (R) [notice] Atomic restore: dropping original table (wp_site_mail_logs)
+0002.025 (R) [notice] Atomic restore: renaming new table (4n_site_mail_logs) to final table name (wp_site_mail_logs)
+0002.032 (R) [notice] Таблица обрабатывается (InnoDB):  wp_site_mail_statuses - будет восстановлено как: 4n_site_mail_statuses
+0002.053 (R) [notice] Atomic restore: dropping original table (wp_site_mail_statuses)
+0002.061 (R) [notice] Atomic restore: renaming new table (4n_site_mail_statuses) to final table name (wp_site_mail_statuses)
+0002.068 (R) [notice] Таблица обрабатывается (InnoDB):  wp_site_mail_suppressions - будет восстановлено как: 4n_site_mail_suppressions
+0002.086 (R) [notice] Atomic restore: dropping original table (wp_site_mail_suppressions)
+0002.097 (R) [notice] Atomic restore: renaming new table (4n_site_mail_suppressions) to final table name (wp_site_mail_suppressions)
+0002.105 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_admin_note_actions - будет восстановлено как: 4n_wc_admin_note_actions
+0002.129 (R) [notice] Atomic restore: dropping original table (wp_wc_admin_note_actions)
+0002.137 (R) [notice] Atomic restore: renaming new table (4n_wc_admin_note_actions) to final table name (wp_wc_admin_note_actions)
+0002.145 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_admin_notes - будет восстановлено как: 4n_wc_admin_notes
+0002.169 (R) [notice] Atomic restore: dropping original table (wp_wc_admin_notes)
+0002.177 (R) [notice] Atomic restore: renaming new table (4n_wc_admin_notes) to final table name (wp_wc_admin_notes)
+0002.185 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_customer_lookup - будет восстановлено как: 4n_wc_customer_lookup
+0002.209 (R) [notice] Atomic restore: dropping original table (wp_wc_customer_lookup)
+0002.220 (R) [notice] Atomic restore: renaming new table (4n_wc_customer_lookup) to final table name (wp_wc_customer_lookup)
+0002.231 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_download_log - будет восстановлено как: 4n_wc_download_log
+0002.256 (R) [notice] Atomic restore: dropping original table (wp_wc_download_log)
+0002.267 (R) [notice] Atomic restore: renaming new table (4n_wc_download_log) to final table name (wp_wc_download_log)
+0002.275 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_order_addresses - будет восстановлено как: 4n_wc_order_addresses
+0002.302 (R) [notice] Atomic restore: dropping original table (wp_wc_order_addresses)
+0002.313 (R) [notice] Atomic restore: renaming new table (4n_wc_order_addresses) to final table name (wp_wc_order_addresses)
+0002.323 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_order_coupon_lookup - будет восстановлено как: 4n_wc_order_coupon_lookup
+0002.346 (R) [notice] Atomic restore: dropping original table (wp_wc_order_coupon_lookup)
+0002.358 (R) [notice] Atomic restore: renaming new table (4n_wc_order_coupon_lookup) to final table name (wp_wc_order_coupon_lookup)
+0002.366 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_order_operational_data - будет восстановлено как: 4n_wc_order_operational_data
+0002.389 (R) [notice] Atomic restore: dropping original table (wp_wc_order_operational_data)
+0002.399 (R) [notice] Atomic restore: renaming new table (4n_wc_order_operational_data) to final table name (wp_wc_order_operational_data)
+0002.407 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_order_product_lookup - будет восстановлено как: 4n_wc_order_product_lookup
+0002.431 (R) [notice] Atomic restore: dropping original table (wp_wc_order_product_lookup)
+0002.441 (R) [notice] Atomic restore: renaming new table (4n_wc_order_product_lookup) to final table name (wp_wc_order_product_lookup)
+0002.448 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_order_stats - будет восстановлено как: 4n_wc_order_stats
+0002.473 (R) [notice] Atomic restore: dropping original table (wp_wc_order_stats)
+0002.484 (R) [notice] Atomic restore: renaming new table (4n_wc_order_stats) to final table name (wp_wc_order_stats)
+0002.492 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_order_tax_lookup - будет восстановлено как: 4n_wc_order_tax_lookup
+0002.515 (R) [notice] Atomic restore: dropping original table (wp_wc_order_tax_lookup)
+0002.524 (R) [notice] Atomic restore: renaming new table (4n_wc_order_tax_lookup) to final table name (wp_wc_order_tax_lookup)
+0002.533 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_orders - будет восстановлено как: 4n_wc_orders
+0002.559 (R) [notice] Atomic restore: dropping original table (wp_wc_orders)
+0002.570 (R) [notice] Atomic restore: renaming new table (4n_wc_orders) to final table name (wp_wc_orders)
+0002.588 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_orders_meta - будет восстановлено как: 4n_wc_orders_meta
+0002.613 (R) [notice] Atomic restore: dropping original table (wp_wc_orders_meta)
+0002.624 (R) [notice] Atomic restore: renaming new table (4n_wc_orders_meta) to final table name (wp_wc_orders_meta)
+0002.633 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_product_attributes_lookup - будет восстановлено как: 4n_wc_product_attributes_lookup
+0002.657 (R) [notice] Atomic restore: dropping original table (wp_wc_product_attributes_lookup)
+0002.667 (R) [notice] Atomic restore: renaming new table (4n_wc_product_attributes_lookup) to final table name (wp_wc_product_attributes_lookup)
+0002.672 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_product_download_directories - будет восстановлено как: 4n_wc_product_download_directories
+0002.694 (R) [notice] Atomic restore: dropping original table (wp_wc_product_download_directories)
+0002.704 (R) [notice] Atomic restore: renaming new table (4n_wc_product_download_directories) to final table name (wp_wc_product_download_directories)
+0002.711 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_rate_limits - будет восстановлено как: 4n_wc_rate_limits
+0002.733 (R) [notice] Atomic restore: dropping original table (wp_wc_rate_limits)
+0002.743 (R) [notice] Atomic restore: renaming new table (4n_wc_rate_limits) to final table name (wp_wc_rate_limits)
+0002.749 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wc_webhooks - будет восстановлено как: 4n_wc_webhooks
+0002.770 (R) [notice] Atomic restore: dropping original table (wp_wc_webhooks)
+0002.778 (R) [notice] Atomic restore: renaming new table (4n_wc_webhooks) to final table name (wp_wc_webhooks)
+0002.787 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_api_keys - будет восстановлено как: 4n_woocommerce_api_keys
+0002.811 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_api_keys)
+0002.819 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_api_keys) to final table name (wp_woocommerce_api_keys)
+0002.828 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_attribute_taxonomies - будет восстановлено как: 4n_woocommerce_attribute_taxonomies
+0002.851 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies)
+0002.860 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_attribute_taxonomies) to final table name (wp_woocommerce_attribute_taxonomies)
+0002.866 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_downloadable_product_permissions - будет восстановлено как: 4n_woocommerce_downloadable_product_permissions
+0002.889 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_downloadable_product_permissions)
+0002.899 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_downloadable_product_permissions) to final table name (wp_woocommerce_downloadable_product_permissions)
+0002.905 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_log - будет восстановлено как: 4n_woocommerce_log
+0002.928 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_log)
+0002.938 (R) [notice] Database queries processed: 150 in 2.88 seconds
+0002.939 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_log) to final table name (wp_woocommerce_log)
+0002.947 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_order_items - будет восстановлено как: 4n_woocommerce_order_items
+0002.971 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_order_items)
+0002.984 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_order_items) to final table name (wp_woocommerce_order_items)
+0003.009 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_payment_tokens - будет восстановлено как: 4n_woocommerce_payment_tokens
+0003.028 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_payment_tokens)
+0003.037 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_payment_tokens) to final table name (wp_woocommerce_payment_tokens)
+0003.043 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_sessions - будет восстановлено как: 4n_woocommerce_sessions
+0003.065 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_sessions)
+0003.071 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_sessions) to final table name (wp_woocommerce_sessions)
+0003.077 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_shipping_zone_locations - будет восстановлено как: 4n_woocommerce_shipping_zone_locations
+0003.097 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations)
+0003.107 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_shipping_zone_locations) to final table name (wp_woocommerce_shipping_zone_locations)
+0003.113 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_shipping_zone_methods - будет восстановлено как: 4n_woocommerce_shipping_zone_methods
+0003.132 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods)
+0003.139 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_shipping_zone_methods) to final table name (wp_woocommerce_shipping_zone_methods)
+0003.145 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_shipping_zones - будет восстановлено как: 4n_woocommerce_shipping_zones
+0003.164 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zones)
+0003.171 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_shipping_zones) to final table name (wp_woocommerce_shipping_zones)
+0003.177 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_tax_rate_locations - будет восстановлено как: 4n_woocommerce_tax_rate_locations
+0003.199 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations)
+0003.207 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_tax_rate_locations) to final table name (wp_woocommerce_tax_rate_locations)
+0003.214 (R) [notice] Таблица обрабатывается (InnoDB):  wp_woocommerce_tax_rates - будет восстановлено как: 4n_woocommerce_tax_rates
+0003.238 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_tax_rates)
+0003.246 (R) [notice] Atomic restore: renaming new table (4n_woocommerce_tax_rates) to final table name (wp_woocommerce_tax_rates)
+0003.253 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpforms_logs - будет восстановлено как: 4n_wpforms_logs
+0003.271 (R) [notice] Atomic restore: dropping original table (wp_wpforms_logs)
+0003.329 (R) [notice] Atomic restore: renaming new table (4n_wpforms_logs) to final table name (wp_wpforms_logs)
+0003.337 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpforms_payment_meta - будет восстановлено как: 4n_wpforms_payment_meta
+0003.363 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0003.374 (R) [notice] Atomic restore: renaming new table (4n_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0003.382 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpforms_payments - будет восстановлено как: 4n_wpforms_payments
+0003.416 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payments)
+0003.427 (R) [notice] Atomic restore: renaming new table (4n_wpforms_payments) to final table name (wp_wpforms_payments)
+0003.437 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpforms_tasks_meta - будет восстановлено как: 4n_wpforms_tasks_meta
+0003.462 (R) [notice] Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0003.474 (R) [notice] Atomic restore: renaming new table (4n_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0003.484 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpgmza - будет восстановлено как: 4n_wpgmza
+0003.508 (R) [notice] Atomic restore: dropping original table (wp_wpgmza)
+0003.520 (R) [notice] Atomic restore: renaming new table (4n_wpgmza) to final table name (wp_wpgmza)
+0003.527 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpgmza_admin_notices - будет восстановлено как: 4n_wpgmza_admin_notices
+0003.547 (R) [notice] Atomic restore: dropping original table (wp_wpgmza_admin_notices)
+0003.558 (R) [notice] Atomic restore: renaming new table (4n_wpgmza_admin_notices) to final table name (wp_wpgmza_admin_notices)
+0003.565 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpgmza_circles - будет восстановлено как: 4n_wpgmza_circles
+0003.588 (R) [notice] Atomic restore: dropping original table (wp_wpgmza_circles)
+0003.598 (R) [notice] Atomic restore: renaming new table (4n_wpgmza_circles) to final table name (wp_wpgmza_circles)
+0003.605 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpgmza_image_overlays - будет восстановлено как: 4n_wpgmza_image_overlays
+0003.626 (R) [notice] Atomic restore: dropping original table (wp_wpgmza_image_overlays)
+0003.638 (R) [notice] Atomic restore: renaming new table (4n_wpgmza_image_overlays) to final table name (wp_wpgmza_image_overlays)
+0003.644 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpgmza_maps - будет восстановлено как: 4n_wpgmza_maps
+0003.668 (R) [notice] Atomic restore: dropping original table (wp_wpgmza_maps)
+0003.679 (R) [notice] Atomic restore: renaming new table (4n_wpgmza_maps) to final table name (wp_wpgmza_maps)
+0003.686 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpgmza_point_labels - будет восстановлено как: 4n_wpgmza_point_labels
+0003.707 (R) [notice] Atomic restore: dropping original table (wp_wpgmza_point_labels)
+0003.719 (R) [notice] Atomic restore: renaming new table (4n_wpgmza_point_labels) to final table name (wp_wpgmza_point_labels)
+0003.729 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpgmza_polygon - будет восстановлено как: 4n_wpgmza_polygon
+0003.749 (R) [notice] Atomic restore: dropping original table (wp_wpgmza_polygon)
+0003.760 (R) [notice] Atomic restore: renaming new table (4n_wpgmza_polygon) to final table name (wp_wpgmza_polygon)
+0003.766 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpgmza_polylines - будет восстановлено как: 4n_wpgmza_polylines
+0003.789 (R) [notice] Atomic restore: dropping original table (wp_wpgmza_polylines)
+0003.798 (R) [notice] Atomic restore: renaming new table (4n_wpgmza_polylines) to final table name (wp_wpgmza_polylines)
+0003.806 (R) [notice] Таблица обрабатывается (InnoDB):  wp_wpgmza_rectangles - будет восстановлено как: 4n_wpgmza_rectangles
+0003.853 (R) [notice] Отключение режима обслуживания&#8230;
+0003.854 (R) [notice] Atomic restore: dropping original table (wp_wpgmza_rectangles)
+0003.864 (R) [notice] Atomic restore: renaming new table (4n_wpgmza_rectangles) to final table name (wp_wpgmza_rectangles)
+0003.870 (R) [notice] Finished: lines processed: 198 in 3.82 seconds
+0003.871 (R) [notice] Очистка мусора...
+0003.872 (R) [notice] This option was not selected.
+0003.891 (R) [notice] Распаковка резервной копии (backup_2025-04-17-1546_testrus_5e0f987dbf2e-plugins.zip, 84.1 MB)
+0005.344 (R) [notice] Процесс распаковки: 2940 из 17511 файлов (805 B, plugins/akismet/.htaccess)
+0006.107 (R) [notice] Процесс распаковки: 3941 из 17511 файлов (28.2 MB, plugins/betterdocs/views/shortcodes/search-modal/sidebar.php)
+0007.552 (R) [notice] Процесс распаковки: 4942 из 17511 файлов (74.3 MB, plugins/elementor/core/admin/menu/interfaces/admin-menu-item-with-page.php)
+0008.273 (R) [notice] Процесс распаковки: 5943 из 17511 файлов (78.7 MB, plugins/essential-addons-for-elementor-lite/assets/admin/css/eael-templately-promo.css)
+0009.096 (R) [notice] Процесс распаковки: 6944 из 17511 файлов (100.3 MB, plugins/insert-headers-and-footers/admin/images/upgrade-welcome-cloud.jpg)
+0010.311 (R) [notice] Процесс распаковки: 7945 из 17511 файлов (117.9 MB, plugins/smart-slider-3/Nextend/Framework/Misc/Zip/Reader/ZipExtension.php)
+0011.154 (R) [notice] Процесс распаковки: 8946 из 17511 файлов (134.2 MB, plugins/updraftplus/includes/S3compat.php)
+0012.425 (R) [notice] Процесс распаковки: 9947 из 17511 файлов (155.4 MB, plugins/woocommerce/assets/client/admin/chunks/727.style.css)
+0013.178 (R) [notice] Процесс распаковки: 10948 из 17511 файлов (163.7 MB, plugins/woocommerce/assets/client/blocks/order-confirmation-status.js)
+0013.979 (R) [notice] Процесс распаковки: 11949 из 17511 файлов (180.1 MB, plugins/woocommerce/includes/admin/helper/views/html-section-nav.php)
+0015.047 (R) [notice] Процесс распаковки: 12950 из 17511 файлов (188.3 MB, plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/StoreDetails.php)
+0016.903 (R) [notice] Процесс распаковки: 13951 из 17511 файлов (193.3 MB, plugins/woocommerce/vendor/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php)
+0017.883 (R) [notice] Процесс распаковки: 14952 из 17511 файлов (203.3 MB, plugins/wp-google-maps/images/menu-icon.png)
+0018.853 (R) [notice] Процесс распаковки: 15953 из 17511 файлов (239.4 MB, plugins/wpforms-lite/assets/js/integrations/ai/chat-element/modules/helpers-text.js)
+0020.728 (R) [notice] Процесс распаковки: 16954 из 17511 файлов (251.4 MB, plugins/wpforms-lite/vendor_prefixed/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php)
+0021.523 (R) [notice] Процесс распаковки: 17511 из 17511 файлов (253.7 MB, plugins/wpforms-lite/wpforms.php)
+0021.530 (R) [notice] Удаление устаревших данных...
+0030.567 (R) [notice] Перемещение распакованной резервной копии на место...
+0034.634 (R) [notice] Очистка мусора...
+0034.649 (R) [notice] Распаковка резервной копии (backup_2025-04-17-1546_testrus_5e0f987dbf2e-themes.zip, 20.6 MB)
+0035.359 (R) [notice] Процесс распаковки: 775 из 775 файлов (22.7 MB, themes/twentytwentytwo/theme.json)
+0035.362 (R) [notice] Удаление устаревших данных...
+0035.472 (R) [notice] Перемещение распакованной резервной копии на место...
+0035.590 (R) [notice] Очистка мусора...
+0035.650 (R) [notice] Распаковка резервной копии (backup_2025-04-17-1546_testrus_5e0f987dbf2e-uploads.zip, 13.3 MB)
+0036.344 (R) [notice] Процесс распаковки: 398 из 398 файлов (22.2 MB, uploads/wpforms/themes/themes-custom.json)
+0036.346 (R) [notice] Удаление устаревших данных...
+0036.402 (R) [notice] Перемещение распакованной резервной копии на место...
+0036.458 (R) [notice] Очистка мусора...
+0036.472 (R) [notice] Распаковка резервной копии (backup_2025-04-17-1546_testrus_5e0f987dbf2e-others.zip, 4.3 MB)
+0036.892 (R) [notice] Процесс распаковки: 471 из 471 файлов (17.9 MB, languages/themes/twentytwentytwo-ru_RU.po)
+0036.899 (R) [notice] Очистка мусора...
+0036.943 (R) [notice] Restore successful!
